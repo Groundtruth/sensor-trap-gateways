@@ -1,2 +1,3 @@
 # sensor-trap-gateways
-Example configs for LoRa gateway devices
+Example configurations and/or setup instructions for LoRa gateway devices to work with Trap.NZ
+
