@@ -47,7 +47,7 @@ add action=drop chain=forward comment="defconf: drop all from WAN not DSTNATed" 
 /ip firewall nat
 add action=masquerade chain=srcnat comment="defconf: masquerade" ipsec-policy=out,none out-interface-list=WAN
 /lora
-set 0 antenna=uFL antenna-gain=6dBi channel-plan=au-915-2 disabled=no servers="TTN V3 (au1)"
+set 0 antenna=uFL antenna-gain=6dBi channel-plan=au-915-2 forward=crc-valid,crc-disabled servers="TTN V3 (au1)"
 /system clock
 set time-zone-name=Pacific/Auckland
 /system identity
